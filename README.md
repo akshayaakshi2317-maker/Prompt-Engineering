@@ -60,19 +60,7 @@ cd Prompt-Engineering
 pip install -r requirements.txt
 ```
 
-### 3. Configure the API Key
-
-Create a Groq API key from [Groq Console](https://console.groq.com/keys).
-
-Create `.streamlit/secrets.toml` and add:
-
-```toml
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
-```
-
-Replace the placeholder with your own API key. Never upload your API key to GitHub.
-
-### 4. Run the Application
+### 3. Run the Application
 
 ```bash
 python -m streamlit run app.py
